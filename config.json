@@ -1,0 +1,12 @@
+{
+    "port": 5001,
+    "ip": "0.0.0.0",
+    "nodes_file": "nodes.json",
+    "total_tokens": 1000,
+    "commission": 10,
+    "miner_address": "miner_address_1",
+    "blocks_per_increment": 10,
+    "token_increment": 100,
+    "auth_token": "secure_token",
+    "difficulty": 4
+  }

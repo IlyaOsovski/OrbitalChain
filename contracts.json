@@ -1,0 +1,16 @@
+{
+    "transfer": {
+      "code": "transfer",
+      "conditions": [
+        "transaction['amount'] > 0",
+        "transaction['sender'] != transaction['receiver']"
+      ]
+    },
+    "mint": {
+      "code": "mint",
+      "conditions": [
+        "transaction['amount'] > 0",
+        "transaction['sender'] == 'admin'"
+      ]
+    }
+  }
